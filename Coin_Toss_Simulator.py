@@ -1,7 +1,7 @@
 import math as m
 import matplotlib.pyplot as plt
 
-#n = int(input("Find the probability of n heads in 10 tosses, specify n: "))
+
 plt.title("Coin Toss Simulator")
 prob = []
 number=[]
