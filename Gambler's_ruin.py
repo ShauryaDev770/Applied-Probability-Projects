@@ -1,5 +1,5 @@
 '''
-Lets say there are 10,000 people playing a gambling game where the chances of winning are 50%. Lets find out the 
+Lets say there are 10,000 people playing a gambling game where upon winning, the player gets 10 ruppes. Lets find out the 
 probability of going broke at the end.
 '''
 
@@ -14,9 +14,9 @@ def gamble():
         final = ()
         r = random.choice(Gamble)
         if r == "Win":
-            capital+=1
+            capital+=10
         if r == "Loss":
-            capital-=1
+            capital-=10
                                           
         if capital ==0 or capital == 200:
             break
